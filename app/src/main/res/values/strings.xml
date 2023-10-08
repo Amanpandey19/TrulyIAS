@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TrulyIAS</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="student_login">Student - Login</string>
+    <string name="todo">TODO</string>
+    <string name="student_sign_up">Student - Sign Up</string>
+    <string name="name">Name</string>
+    <string name="which_class_do_you_study">Which class do you study?</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account,</string>
+    <string name="login_here">Login Here</string>
+    <string name="chapter_1_food_where_does_it_come_from">Chapter 1 : Food: Where Does it Come From?</string>
+    <string name="basics_of_science">Basics of Science</string>
+    <string name="covers_all_the_basics_of_science_needed_to_study_further_chapters">Covers all the basics of Science needed to study further chapters</string>
+    <string name="hi_aman">Hi, </string>
+    <string name="class_6">Class </string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="20dp"
+    android:paddingHorizontal="20dp"
+    android:background="@color/light_grey"
+    android:backgroundTint="@color/light_grey"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/topic_image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/im1"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/topic_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="@string/basics_of_science"/>
+
+
+    <TextView
+        android:id="@+id/topic_desc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/covers_all_the_basics_of_science_needed_to_study_further_chapters"/>
+
+</LinearLayout>

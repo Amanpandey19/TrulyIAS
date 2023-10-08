@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/videoView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:id="@+id/constraint_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/videoView"
+        android:background="@color/grey"
+        android:paddingVertical="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@android:color/transparent"
+            app:layout_constraintRight_toLeftOf="@id/seekBar2"
+            android:src="@drawable/baseline_play_arrow_24"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="330dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/MySeekBar"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/thumb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/button"
+            android:layout_marginStart="25dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:id="@+id/show_handout"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraint_parent"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_corner_bg"
+        android:paddingVertical="5dp"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:text="Show Handout"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
